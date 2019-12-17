@@ -1,0 +1,108 @@
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/richemont-banner.jpg');
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  text-align: center;
+  padding: 150px;
+
+  color: white;
+}
+
+#banner h2 {
+  margin-bottom: 50px;
+}
+
+#logo {
+  height: 80px;
+}
+
+#information-container {
+  background-color: #ECEDF2;
+  padding: 50px;
+
+  text-align: center;
+}
+
+#information-container h2 {
+  font-size: 48px;
+  color: #15416E;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.information-icon {
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.information-feature {
+  background-color: white;
+  border-radius: 20px;
+
+  padding: 40px 20px;
+
+  text-align: center;
+}
+
+.information-feature h3 {
+  font-size: 24px;
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+.information-feature p {
+  font-size: 14px;
+}
+
+#footer {
+  background-color: #15416E;
+  color: white;
+  padding: 50px 20px;
+
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+  font-size: 16px;
+}
+
+#social-media {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+#social-media li {
+  display: inline;
+}
+
+#social-media i {
+  font-size: 24px;
+  padding: 0 5px;
+}
