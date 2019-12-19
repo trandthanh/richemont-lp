@@ -195,10 +195,16 @@ p {
   background-size: cover;
   background-position: center;
 
+  height: 100vh;
+
   text-align: center;
   padding: 150px;
 
   color: white;
+}
+
+#banner h2 {
+  margin-bottom: 50px;
 }
 
 #logo {
@@ -208,6 +214,8 @@ p {
 #information-container {
   background-color: #ECEDF2;
   padding: 50px;
+
+  text-align: center;
 }
 
 #information-container h2 {
@@ -229,6 +237,7 @@ p {
   border-radius: 20px;
 
   padding: 40px 20px;
+  margin-bottom: 30px;
 
   text-align: center;
 }
@@ -247,9 +256,14 @@ p {
 #footer {
   background-color: #15416E;
   color: white;
-  padding: 20px;
+  padding: 50px 20px;
 
   text-align: center;
+}
+
+#footer a {
+  color: white;
+  font-size: 16px;
 }
 
 #social-media {
@@ -260,6 +274,11 @@ p {
 
 #social-media li {
   display: inline;
+}
+
+#social-media i {
+  font-size: 24px;
+  padding: 0 5px;
 }
 ```
 
@@ -273,7 +292,7 @@ p {
 <div class="container">
   <div class="row">
 
-    <div class="col-3 col-xs-6">
+    <div class="col-12 col-sm-6 col-md-3">
       <div class="information-feature">
         <img src="images/001-desktop.png" class="information-icon">
         <h3>Appronfondir ses compétences</h3>
@@ -281,7 +300,7 @@ p {
       </div>
     </div>
 
-    <div class="col-3 col-xs-6">
+    <div class="col-12 col-sm-6 col-md-3">
       <div class="information-feature">
         <img src="images/002-notebook.png" class="information-icon">
         <h3>S'épanouir dans son travail</h3>
@@ -289,7 +308,7 @@ p {
       </div>
     </div>
 
-    <div class="col-3 col-xs-6">
+    <div class="col-12 col-sm-6 col-md-3">
       <div class="information-feature">
         <img src="images/003-abacus.png" class="information-icon">
         <h3>Découvrir un nouveau métier</h3>
@@ -297,7 +316,7 @@ p {
       </div>
     </div>
 
-    <div class="col-3 col-xs-6">
+    <div class="col-12 col-sm-6 col-md-3">
       <div class="information-feature">
         <img src="images/004-chat.png" class="information-icon" >
         <h3>Etre acteur de son évolution</h3>
